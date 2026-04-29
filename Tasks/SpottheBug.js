@@ -1,0 +1,10 @@
+//What is wrong with this code? Fix it.
+
+let responseTimes = [320, 85, 1200, 450, 99];
+let sorted = responseTimes.sort();  // Array.sort() sorts values as strings by default, not numbers.
+console.log("Fastest:", sorted[0]);
+
+let responseTimes1 = [320, 85, 1200, 450, 99];
+let sorted1 = responseTimes1.sort((a, b) => a - b);
+console.log("Fastest:", sorted1[0]);
+

@@ -1,7 +1,56 @@
+<<<<<<< HEAD
 
 # Playwright
 node_modules/
 /test-results/
+=======
+# Node.js
+node_modules/
+dist/
+build/
+.npm/
+.env
+.env.local
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Playwright artifacts
+test-results/
+playwright-report/
+**/screenshots/
+**/videos/
+**/traces/
+
+# Lock files
+package-lock.json
+yarn.lock
+
+# Others
+coverage/
+coverage-final.json
+reports/
+
+# Windows
+*.log
+
+# Ignore local env and secrets
+secrets.json
+
+# Playwright
+>>>>>>> d0107742c466a7252d2d40243c66a5c9428a57a1
 /playwright-report/
 /blob-report/
 /playwright/.cache/

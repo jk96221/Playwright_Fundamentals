@@ -1,0 +1,45 @@
+//IQ Test True Result  
+if ("Hello") console.log("String is truthy");
+if (42) console.log("Number is truthy");
+if (true) console.log("Boolean is truthy");
+if ({}) console.log("Object is truthy");
+if ([]) console.log("Array is truthy");
+if (null) console.log("Null is truthy");
+if (undefined) console.log("Undefined is truthy");
+if (NaN) console.log("NaN is truthy");
+if (0) console.log("Zero is truthy");
+if (-1) console.log("Negative number is truthy");
+if (0n) console.log("BigInt is truthy");
+if (Symbol("hello")) console.log("Symbol is truthy");
+if (function () { }) console.log("Function is truthy");
+if (new Date()) console.log("Date is truthy");
+if (new Error()) console.log("Error is truthy");
+if (new RegExp()) console.log("RegExp is truthy");
+if (new Map()) console.log("Map is truthy");
+if (new Set()) console.log("Set is truthy");
+if (new WeakMap()) console.log("WeakMap is truthy");
+if (new WeakSet()) console.log("WeakSet is truthy");
+if (new Promise((resolve) => resolve())) console.log("Promise is truthy");
+if (new Proxy({}, {})) console.log("Proxy is truthy");
+if (new Proxy({}, {})) console.log("Proxy is truthy");
+
+//IQ Test false Results:
+if ("") console.log("Empty string is falsy");
+if (0) console.log("Zero is falsy");
+if (null) console.log("Null is falsy");
+if (undefined) console.log("Undefined is falsy");
+if (NaN) console.log("NaN is falsy");
+if (false) console.log("Boolean is falsy");
+if (0n) console.log("BigInt is falsy");
+if (Symbol("hello")) console.log("Symbol is falsy");
+if (function () { }) console.log("Function is falsy");
+if (new Date()) console.log("Date is falsy");
+if (new Error()) console.log("Error is falsy");
+if (new RegExp()) console.log("RegExp is falsy");
+if (new Map()) console.log("Map is falsy");
+if (new Set()) console.log("Set is falsy");
+if (new WeakMap()) console.log("WeakMap is falsy");
+if (new WeakSet()) console.log("WeakSet is falsy");
+if (new Promise((resolve) => resolve())) console.log("Promise is falsy");
+if (new Proxy({}, {})) console.log("Proxy is falsy");
+if (new Proxy({}, {})) console.log("Proxy is falsy");

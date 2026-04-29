@@ -1,0 +1,2 @@
+//What is Loop?
+//Loop is a programming structure that allows you to repeat a block of code multiple times. It is used to perform repetitive tasks without having to write the same code over and over again. There are different types of loops in programming, including for loops, while loops, and do-while loops. Each type of loop has its own syntax and use cases, but they all serve the same purpose of allowing you to execute a block of code multiple times based on certain conditions.

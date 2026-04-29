@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "playwright_fundamentals",
   "version": "1.0.0",
   "description": "",
@@ -13,3 +14,28 @@
     "@types/node": "^25.6.0"
   }
 }
+=======
+  "name": "playwrightwithai",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Collection of Playwright examples, JavaScript fundamentals, and exercises used for learning and demos.",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jk96221/PLAYWRIGHTWITHAI.git"
+  },
+  "keywords": [],
+  "author": "Pramod Dutta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jk96221/PLAYWRIGHTWITHAI/issues"
+  },
+  "homepage": "https://github.com/jk96221/PLAYWRIGHTWITHAI#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.3.3",
+    "playwright": "^1.58.2"
+  }
+}
+>>>>>>> d0107742c466a7252d2d40243c66a5c9428a57a1
