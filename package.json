@@ -1,41 +1,27 @@
 {
-<<<<<<< HEAD
   "name": "playwright_fundamentals",
   "version": "1.0.0",
-  "description": "",
+  "description": "Playwright fundamentals with examples and Allure reporting",
   "main": "index.js",
-  "scripts": {},
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "devDependencies": {
-    "@playwright/test": "^1.59.1",
-    "@types/node": "^25.6.0"
-  }
-}
-=======
-  "name": "playwrightwithai",
-  "version": "1.0.0",
-  "type": "module",
-  "description": "Collection of Playwright examples, JavaScript fundamentals, and exercises used for learning and demos.",
-  "main": "index.js",
-  "scripts": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jk96221/PLAYWRIGHTWITHAI.git"
+  "scripts": {
+    "test": "playwright test"
   },
   "keywords": [],
   "author": "Pramod Dutta",
   "license": "ISC",
+  "type": "commonjs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jk96221/PLAYWRIGHTWITHAI.git"
+  },
   "bugs": {
     "url": "https://github.com/jk96221/PLAYWRIGHTWITHAI/issues"
   },
   "homepage": "https://github.com/jk96221/PLAYWRIGHTWITHAI#readme",
   "devDependencies": {
-    "@playwright/test": "^1.58.2",
-    "@types/node": "^25.3.3",
-    "playwright": "^1.58.2"
+    "@playwright/test": "^1.59.1",
+    "@types/node": "^25.6.0",
+    "allure-playwright": "^3.7.2",
+    "playwright": "^1.59.1"
   }
 }
->>>>>>> d0107742c466a7252d2d40243c66a5c9428a57a1
