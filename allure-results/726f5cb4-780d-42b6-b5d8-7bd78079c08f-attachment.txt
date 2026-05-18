@@ -1,0 +1,5 @@
+Main frame — practice playground
+Total No.of Frames: 3
+side : ./side-frame.html
+main : ./main-frame.html
+footer : ./footer-frame.html

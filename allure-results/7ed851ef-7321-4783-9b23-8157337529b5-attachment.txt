@@ -1,0 +1,8 @@
+Vehicle Information: {
+  "vehicleName": "Hyundai-i10",
+  "ownerName": "Narasimharao",
+  "regNumber": "AP32ZA7832",
+  "vehicleType": "SUV",
+  "year": "2022",
+  "notes": "Amazing car for family and long drives"
+}
